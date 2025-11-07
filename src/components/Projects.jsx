@@ -10,7 +10,7 @@ function Projects() {
                 <li className="project">
 
                     <div className="project__wrapper">
-                        <img src={`${process.env.PUBLIC_URL}/assets/summarist.PNG`} className="snapshot" alt="summarist snapshot"></img>
+                        <img src={`${process.env.PUBLIC_URL}/assets/internshipsnapshot.PNG`} className="snapshot" alt="summarist snapshot"></img>
                         <div className="project__description">
                             <h3 className="project__description__title">Summarist</h3>
                             <h4 className="project__description__subtitle">Next.js, Redux, Tailwind CSS, Service API, Firebase</h4>
