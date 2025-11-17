@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer__content">
             <div className="footer__logocontainer">
                 <a href="#" className="footer__anchor">
-                    <img src={`${process.env.PUBLIC_URL}/assets/footerlogo.png`} className="footer__logo" alt="footer logo"></img>
+                    <img src="assets/footerlogo.png" className="footer__logo" alt="footer logo"></img>
                     <span className="footer__logo__popper">
                         Top
                         <i className="fas fa-arrow-up"></i>
@@ -22,7 +22,7 @@ function Footer() {
                     <a href="https://github.com/timtchouamou" target="_blank">GitHub</a>
                 </li>
                 <li className="footer__social-link">
-                    <a href="assets/resume.pdf" target="_blank">Resume</a>
+                    <a href="assets/resumeNOV3.pdf" target="_blank">Resume</a>
                 </li>
             </ul>
             <p className="copyright">Copyright © 2025 Timothee Djouokep Tchouamou</p>

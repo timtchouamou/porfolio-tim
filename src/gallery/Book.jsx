@@ -17,11 +17,11 @@ function Book() {
 
           <a
             className="contentpage"
-            href="assets/resume.pdf"
+            href="assets/resumeNOV3.pdf"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img src={`${process.env.PUBLIC_URL}/assets/myresume.png`} alt="my resume"></img>
+            <img src="/assets/myresume.png" alt="my resume"></img>
           </a>
 
           <div className="back-cover"></div>

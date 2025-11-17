@@ -55,18 +55,21 @@ function Nav({
           >
             Contact
           </a>
+          
           <div
             className="btn__menu--item light__button"
             onClick={() => {closeMenu(); toggleContrast()}}
           >
             Dark Mode
           </div>
+
           <div
             className="btn__menu--item dark__button"
             onClick={() => {closeMenu(); toggleContrast()}}
           >
             Light Mode
           </div>
+
         </div>
       </div>
     </nav>

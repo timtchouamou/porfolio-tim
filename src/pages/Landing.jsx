@@ -126,6 +126,7 @@ function Landing() {
               </b>
             </p>
             <ul className="landing__content--links">
+
               <li>
                 <a
                   href="https://www.linkedin.com/in/timothee-djouokep-tchouamou-13a633bb/"
@@ -137,6 +138,7 @@ function Landing() {
                   <i className="fa-brands fa-linkedin-in landing__content--link-img"></i>
                 </a>
               </li>
+
               <li>
                 <a
                   href="https://github.com/timtchouamou"
@@ -148,9 +150,10 @@ function Landing() {
                   <i className="fa-brands fa-github landing__content--link-img"></i>
                 </a>
               </li>
+
               <li>
                 <a
-                  href="assets/resume.pdf"
+                  href="assets/resumeNOV3.pdf"
                   target="_blank"
                   className="landing__content--link"
                   id="link3"
@@ -158,12 +161,17 @@ function Landing() {
                   <i className="fa-regular fa-file-pdf landing__content--link-img"></i>
                 </a>
               </li>
+
             </ul>
+
           </div>
+
           <div className="teacup__container">
             <Teacup></Teacup>
           </div>
+
         </div>
+
         <button className="mail__btn">
           <a
             href="#"
@@ -175,6 +183,7 @@ function Landing() {
             <i className="fa-solid fa-envelope mail__btn--link"></i>
           </a>
         </button>
+        
         <a href="#gallery" className="scroll">
           <div className="scroll__icon click"></div>
         </a>
