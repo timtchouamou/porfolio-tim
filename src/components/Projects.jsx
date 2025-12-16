@@ -57,6 +57,30 @@ function Projects() {
                         </div>
                     </div>
                 </li>
+                <li className="project">
+                    <div className="project__wrapper">
+                        <img src="/assets/netflix-clone img.png" className="snapshot" alt="netflix clone snapshot"></img>
+                        <div className="project__description">
+                            <h3 className="project__description__title"></h3>
+                            <h4 className="project__description__subtitle">Next.js,Typescript, Service API, Firebase(firestore + authentication), Stripe using firebase extension, React icons, Vercel</h4>
+                            <p className="project__description__para">A robust website that implement a replica of Netflix with a functioning login and signup screen as well as movie trailers. Features include user creation
+                                and authentication, guest sign in.
+                            </p>
+                            <div className="project__description__links">
+                                <div className="project__description__link">
+                                    <a href="https://github.com/timtchouamou/summarist-tim" target="_blank" rel="noreferrer">
+                                        <i className="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div className="project__description__link">
+                                    <a href="https://summarist-tim.vercel.app/" target="_blank" rel="noreferrer">
+                                        <i className="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
 
                 <li className="project">
                     <div className="project__wrapper">
