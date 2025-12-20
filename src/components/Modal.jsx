@@ -22,6 +22,7 @@ function Modal({ contact, closeModal }) {
           </p>
           <div className="languages" id="languages">
             <div className="language__list">
+
               <div className="language">
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/html.png`}
@@ -30,6 +31,7 @@ function Modal({ contact, closeModal }) {
                 ></img>
                 <span className="language__name">HTML</span>
               </div>
+
               <div className="language">
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/css-3.png`}
@@ -38,6 +40,7 @@ function Modal({ contact, closeModal }) {
                 ></img>
                 <span className="language__name">CSS</span>
               </div>
+
               <div className="language">
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/js.png`}
@@ -46,6 +49,7 @@ function Modal({ contact, closeModal }) {
                 ></img>
                 <span className="language__name">JavaScript</span>
               </div>
+
               <div className="language">
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/typescript.png`}
@@ -54,6 +58,7 @@ function Modal({ contact, closeModal }) {
                 ></img>
                 <span className="language__name">TypeScript</span>
               </div>
+
               <div className="language">
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/react.png`}
@@ -62,6 +67,7 @@ function Modal({ contact, closeModal }) {
                 ></img>
                 <span className="language__name">React</span>
               </div>
+
               <div className="language">
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/linux.png`}
@@ -70,6 +76,7 @@ function Modal({ contact, closeModal }) {
                 ></img>
                 <span className="language__name">Linux</span>
               </div>
+
               <div className="language">
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/ansible.png`}
@@ -78,6 +85,7 @@ function Modal({ contact, closeModal }) {
                 ></img>
                 <span className="language__name">Ansible</span>
               </div>
+
               <div className="language">
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/nextjs.png`}
@@ -86,6 +94,7 @@ function Modal({ contact, closeModal }) {
                 ></img>
                 <span className="language__name">Next.js</span>
               </div>
+              
             </div>
           </div>
         </div>
